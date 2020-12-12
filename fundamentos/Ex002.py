@@ -1,4 +1,4 @@
-'''Crie um script pyhton que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado.'''
+'''Create a pyhton script that reads a person's name and displays a welcome message according to the value entered.'''
 
-nome = input('Qual é o seu nome? ')
-print('Olá {}! Prazer em te conhecer!'.format(nome))
+name = input('What is your name? ')
+print('Hello {}! Nice to meet you!'.format(name))

@@ -1,11 +1,11 @@
-'''Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.'''
+'''Make a program that reads something on the keyboard and shows on the screen its primitive type and all possible information about it.'''
 
-a = input('Digite algo: ')
-print('O tipo primitivo desse valor é: ', type(a))
-print('Só tem espaços? ', a.isspace())
-print('É um número? ', a.isnumeric())
-print('É alfabético? ', a.isalpha())
-print('É alfanumérico? ', a.isalnum())
-print('Está em maiúscula? ', a.isupper())
-print('Está em minúscula? ', a.islower())
-print('Está captalizada? ', a.istitle())
+a = input('Type something: ')
+print('The primitive type of this value is: ', type(a))
+print('Only spaces? ', a.isspace())
+print('Is it a number? ', a.isnumeric())
+print('Is it alphabetical? ', a.isalpha())
+print('Is it alphanumeric? ', a.isalnum())
+print('Is it uppercase? ', a.isupper())
+print('Is it in lower case? ', a.islower())
+print('Is it capitalized? ', a.istitle())

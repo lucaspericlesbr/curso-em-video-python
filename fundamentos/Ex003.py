@@ -1,6 +1,6 @@
-'''Crie um programa que leia dois numeros e mostre a soma entre eles.'''
+'''Create a program that reads two numbers and shows the sum between them.'''
 
-n1 = int(input('Digite um valor: '))
-n2 = int(input('Digite outro valor: '))
+n1 = int(input('Type a value: '))
+n2 = int(input('Type another value: '))
 s = n1 + n2
-print('A soma entre {} e {} é igual a {}.'.format(n1, n2, s))
+print('The sum between {} and {} is equal to {}.'.format(n1, n2, s))
