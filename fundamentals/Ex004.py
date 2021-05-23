@@ -1,6 +1,9 @@
-'''Make a program that reads something on the keyboard and shows on the screen its primitive type and all possible information about it.'''
+'''
+Make a program that reads something on the keyboard and shows on the screen its primitive type and all possible information about it.
+'''
 
 a = input('Type something: ')
+
 print('The primitive type of this value is: ', type(a))
 print('Only spaces? ', a.isspace())
 print('Is it a number? ', a.isnumeric())
