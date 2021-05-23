@@ -1,4 +1,6 @@
-'''Create a program that reads two numbers and shows the sum between them.'''
+'''
+Create a program that reads two numbers and shows the sum between them.
+'''
 
 n1 = int(input('Type a value: '))
 n2 = int(input('Type another value: '))
