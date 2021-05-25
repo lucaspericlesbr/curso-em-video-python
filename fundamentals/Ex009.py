@@ -1,4 +1,6 @@
-'''Make a program that reads any whole number and shows your multiplication table on the screen.'''
+'''
+Make a program that reads any whole number and shows your multiplication table on the screen.
+'''
 
 num = int(input('Enter a value: '))
 
