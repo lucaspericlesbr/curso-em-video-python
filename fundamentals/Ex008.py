@@ -1,4 +1,6 @@
-'''Write a program that reads a value in meters and displays it converted to centimeters and millimeters.'''
+'''
+Write a program that reads a value in meters and displays it converted to centimeters and millimeters.
+'''
 
 num = float(input('Enter a value in meters: '))
 print('The value {}m converted to {:.0f}cm and {:.0f}mm.'.format(num, (num*100), (num*1000)))
